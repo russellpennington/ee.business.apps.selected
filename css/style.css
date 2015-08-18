@@ -1,0 +1,189 @@
+@font-face {
+	font-family:'icomoon';
+	src:url('../fonts/icomoon.eot?-739y36');
+	src:url('../fonts/icomoon.eot?#iefix-739y36') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-739y36') format('woff'),
+		url('../fonts/icomoon.ttf?-739y36') format('truetype'),
+		url('../fonts/icomoon.svg?-739y36#icomoon') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+   font-family: dottedFont;
+   src: url(../fonts/EENobbleeLight.otf);
+}
+
+ul, h5, h3, p {
+	margin: 0; 
+	padding: 0;
+}
+
+body {color: #67686a;}
+
+a, a:hover {color: #fff;}
+
+.ee-font {font-family: dottedFont;}
+
+/* CAROUSEL RESETS */
+	.img-responsive, 
+	.thumbnail > img, 
+	.thumbnail a > img, 
+	.carousel-inner > .item > img, 
+	.carousel-inner > .item > a > img {display: inline-block;}
+
+	.carousel-control {
+		text-shadow: none;
+		width: auto;
+		bottom: 0;
+		font-size: 41px;
+		opacity: 1;
+		top: 90%;
+	}
+
+	.carousel-control.left, .carousel-control.right { 
+		background-image: -webkit-linear-gradient	(left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%);
+		background-image: linear-gradient			(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%);
+		background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0)), to(rgba(0,0,0,0)));
+	}
+
+.page-head {
+	background-color: #3c3d40;
+	padding: 7px 0;
+}
+
+.sub-head {
+	color: #ffe701;
+	background-color: #00808a;
+	padding: 15px 0;
+}
+
+.logo {
+	width: 43px;
+	margin-right: 25px;
+}
+
+.sub-head h3 {font-size: 37px;}
+
+.sub-head ul {font-size: 20px;}
+
+.sub-head li {
+	display: inline;
+	border-right: 1px dotted #fff;
+}
+
+.sub-head li:first-child {padding-right: 13px;}
+
+.sub-head li:last-child {
+	padding-left: 8px;
+	border-right: none;
+}
+
+.right-col p:first-child { font-size:16px;}
+
+.right-col p:last-child {
+	font-size: 35px;
+	line-height: 30px;
+}
+
+.hero-img {
+	background-image: url("../images/man_with_coffee.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1.ee-font {
+	color: #fff;
+	font-size: 50px;
+	margin: 45px 0 350px;
+}
+
+.hero-subSection-title, 
+.hero-subSection-copy {background-color: #f6f4f0;}
+
+.hero-subSection-title h2 {
+	color: #00808a;
+	padding: 30px 0 15px;
+}
+
+.hero-subSection-copy p:last-child {padding-bottom: 60px;}
+
+.main-row {
+	padding: 40px 0 60px;
+	border-bottom: 2px dotted #a0a0a2;
+}
+
+.main-row:last-child {border-bottom: none;}
+
+.main-row h3 {
+	color: #00808a;
+	padding: 40px 0 10px 20px;
+}
+
+.main-row ul {padding-left: 50px;}
+
+.main-row li {
+	font-size: 16px;
+	padding-top: 12px;
+}
+
+.icon-left:before {content: "\e601";}
+.icon-right:before {content: "\e600";}
+
+.icon-left:before, .icon-right:before {
+	color: #67686a;
+	font-size: 40px;
+}
+
+.main-row p {margin: 35px 0 25px;}
+
+.btn {
+	width: 190px;
+	height: 45px;
+	background-color: #00808a;
+	border: none;
+	-webkit-transition: background .2s ease;
+	-moz-transition: background .2s ease;
+	-o-transition: background .2s ease;
+	transition: background .2s ease;
+}
+
+.btn:hover {background-color: #006871;}
+
+.pre-foot {
+	background-color: #67686a;
+	padding: 30px 0;
+}
+
+.pre-foot h5 {
+	color: #fff;
+	padding-bottom: 12px;
+}
+
+.pre-foot ul {
+	min-height: 110px;
+	list-style-type: none;
+	border-right: 2px dotted #fff;
+}
+
+#col3 {border-right: none;}
+
+.page-foot {background-color: #4d4d4d;}
+
+.page-foot p {
+	color: #fff;
+	margin: 10px 0;
+}
